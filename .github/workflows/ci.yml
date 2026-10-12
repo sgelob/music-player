@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  kit-linux:
+    name: TimeCapsuleKit tests (Linux)
+    runs-on: ubuntu-latest
+    container: swift:6.0
+    steps:
+      - uses: actions/checkout@v4
+      - run: swift test
+
+  app-ios:
+    name: iOS app build
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build for iOS Simulator
+        run: |
+          xcodebuild -project TimeCapsuleMusic.xcodeproj -scheme TimeCapsuleMusic \
+            -destination 'generic/platform=iOS Simulator' \
+            -skipPackagePluginValidation CODE_SIGNING_ALLOWED=NO build | tail -n 50
+          exit ${PIPESTATUS[0]}
+      - name: Test TimeCapsuleKit (macOS)
+        run: swift test

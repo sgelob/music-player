@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002BC4C1549493C8F97C2231 /* TrackCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C2D1E90C65459052FCFDF7 /* TrackCache.swift */; };
+		389266A795D3CABAD9CC8D2E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD67F9EE265CC466A0B3028 /* RootView.swift */; };
+		3ADB99E26E80D674652F424D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2879C30618E72C33DC890A7D /* Assets.xcassets */; };
+		3D9128F8619464C0941107E9 /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315AD5B9BDCA35A09A2976EE /* ConnectView.swift */; };
+		3F36A5690AA28C4BE519FE24 /* FolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AFDBB3ABB02228DF17CE81 /* FolderView.swift */; };
+		5F004C5B4E4088C1AA3FEDAB /* MiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348FB4832A92E29C00F5ECBF /* MiniPlayerView.swift */; };
+		69E52DF5AFB6DD1B02335D20 /* AirPlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1785A4B8A785BA6E45D4356D /* AirPlayButton.swift */; };
+		73CFD9C3CC988D730621CA2A /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B9FA1C01450A7103FB2D34 /* AppModel.swift */; };
+		85782D018A33BC3F580541B0 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6845A0E7CDE1840952937 /* Keychain.swift */; };
+		8AD97CFB93ACA9B4CA73001F /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD552C9E3398A23F98A2F93 /* Library.swift */; };
+		8E2ADC148F9C8EDCA8C177D8 /* TimeCapsuleKit in Frameworks */ = {isa = PBXBuildFile; productRef = A06BB77E1CF87C0C946BBF5B /* TimeCapsuleKit */; };
+		99B99109C059C8E46FAEB3E3 /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743EAB76C4990EE702015B4F /* NowPlayingView.swift */; };
+		BAC60C2501F42A0ED961E0AD /* BonjourBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6C20BD8CA414A5B928445A /* BonjourBrowser.swift */; };
+		CCEFCCD13168D75DE5790CB6 /* TimeCapsuleMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A724563629C13F4B5921D /* TimeCapsuleMusicApp.swift */; };
+		D0013BC12C3A9329D183E21F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF8BFABAF888858DBEFC52C /* SettingsView.swift */; };
+		E357A823FFE76B2828794063 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20F19B1AD82E10C5D4BF34A /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1785A4B8A785BA6E45D4356D /* AirPlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPlayButton.swift; sourceTree = "<group>"; };
+		1BF8BFABAF888858DBEFC52C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1FD67F9EE265CC466A0B3028 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		2879C30618E72C33DC890A7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		315AD5B9BDCA35A09A2976EE /* ConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
+		348FB4832A92E29C00F5ECBF /* MiniPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayerView.swift; sourceTree = "<group>"; };
+		51AFDBB3ABB02228DF17CE81 /* FolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderView.swift; sourceTree = "<group>"; };
+		743EAB76C4990EE702015B4F /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
+		92C2D1E90C65459052FCFDF7 /* TrackCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCache.swift; sourceTree = "<group>"; };
+		97B9FA1C01450A7103FB2D34 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		996A724563629C13F4B5921D /* TimeCapsuleMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCapsuleMusicApp.swift; sourceTree = "<group>"; };
+		9BD6845A0E7CDE1840952937 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		AAD552C9E3398A23F98A2F93 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		D20F19B1AD82E10C5D4BF34A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		DE6C20BD8CA414A5B928445A /* BonjourBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourBrowser.swift; sourceTree = "<group>"; };
+		DEC140F15BBA9F66BB72C107 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = .; sourceTree = SOURCE_ROOT; };
+		E3B9CD4FFCC708F88AA241A9 /* TimeCapsuleMusic.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TimeCapsuleMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAC8E6AFC1B59A6947627C37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2ADC148F9C8EDCA8C177D8 /* TimeCapsuleKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		169DD7218A99248C350928BD /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				DEC140F15BBA9F66BB72C107 /* src */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		1C6070C01FBC5AA437F11998 /* TimeCapsuleMusic */ = {
+			isa = PBXGroup;
+			children = (
+				2879C30618E72C33DC890A7D /* Assets.xcassets */,
+				996A724563629C13F4B5921D /* TimeCapsuleMusicApp.swift */,
+				2A68B77AB5ED864833405881 /* Model */,
+				F1831D6B75F5A26A86DBF433 /* Playback */,
+				542C5E4E4F9E86707B698CFD /* Views */,
+			);
+			path = TimeCapsuleMusic;
+			sourceTree = "<group>";
+		};
+		2224492C2343038A03086A47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3B9CD4FFCC708F88AA241A9 /* TimeCapsuleMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A68B77AB5ED864833405881 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				97B9FA1C01450A7103FB2D34 /* AppModel.swift */,
+				DE6C20BD8CA414A5B928445A /* BonjourBrowser.swift */,
+				9BD6845A0E7CDE1840952937 /* Keychain.swift */,
+				AAD552C9E3398A23F98A2F93 /* Library.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		542C5E4E4F9E86707B698CFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1785A4B8A785BA6E45D4356D /* AirPlayButton.swift */,
+				315AD5B9BDCA35A09A2976EE /* ConnectView.swift */,
+				51AFDBB3ABB02228DF17CE81 /* FolderView.swift */,
+				348FB4832A92E29C00F5ECBF /* MiniPlayerView.swift */,
+				743EAB76C4990EE702015B4F /* NowPlayingView.swift */,
+				1FD67F9EE265CC466A0B3028 /* RootView.swift */,
+				1BF8BFABAF888858DBEFC52C /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		966B21A34B4785414E30C7AF = {
+			isa = PBXGroup;
+			children = (
+				FBFEE3FAA4CB06A0CEF67334 /* App */,
+				169DD7218A99248C350928BD /* Packages */,
+				2224492C2343038A03086A47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1831D6B75F5A26A86DBF433 /* Playback */ = {
+			isa = PBXGroup;
+			children = (
+				D20F19B1AD82E10C5D4BF34A /* Player.swift */,
+				92C2D1E90C65459052FCFDF7 /* TrackCache.swift */,
+			);
+			path = Playback;
+			sourceTree = "<group>";
+		};
+		FBFEE3FAA4CB06A0CEF67334 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1C6070C01FBC5AA437F11998 /* TimeCapsuleMusic */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6214E091FBEF53E3C92C30B /* TimeCapsuleMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4195FE17EBAC2AEEF2E3A9 /* Build configuration list for PBXNativeTarget "TimeCapsuleMusic" */;
+			buildPhases = (
+				C2C3221807B3A8FAD9BDBA24 /* Sources */,
+				5134B83422706F8285C75458 /* Resources */,
+				DAC8E6AFC1B59A6947627C37 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeCapsuleMusic;
+			packageProductDependencies = (
+				A06BB77E1CF87C0C946BBF5B /* TimeCapsuleKit */,
+			);
+			productName = TimeCapsuleMusic;
+			productReference = E3B9CD4FFCC708F88AA241A9 /* TimeCapsuleMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		383FA17E8260EB7264DF0CD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F6214E091FBEF53E3C92C30B = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F797462FEC116B35E5BFED64 /* Build configuration list for PBXProject "TimeCapsuleMusic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 966B21A34B4785414E30C7AF;
+			packageReferences = (
+				1CCBFD560A624F839C195EB3 /* XCLocalSwiftPackageReference "." */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6214E091FBEF53E3C92C30B /* TimeCapsuleMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5134B83422706F8285C75458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADB99E26E80D674652F424D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2C3221807B3A8FAD9BDBA24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E52DF5AFB6DD1B02335D20 /* AirPlayButton.swift in Sources */,
+				73CFD9C3CC988D730621CA2A /* AppModel.swift in Sources */,
+				BAC60C2501F42A0ED961E0AD /* BonjourBrowser.swift in Sources */,
+				3D9128F8619464C0941107E9 /* ConnectView.swift in Sources */,
+				3F36A5690AA28C4BE519FE24 /* FolderView.swift in Sources */,
+				85782D018A33BC3F580541B0 /* Keychain.swift in Sources */,
+				8AD97CFB93ACA9B4CA73001F /* Library.swift in Sources */,
+				5F004C5B4E4088C1AA3FEDAB /* MiniPlayerView.swift in Sources */,
+				99B99109C059C8E46FAEB3E3 /* NowPlayingView.swift in Sources */,
+				E357A823FFE76B2828794063 /* Player.swift in Sources */,
+				389266A795D3CABAD9CC8D2E /* RootView.swift in Sources */,
+				D0013BC12C3A9329D183E21F /* SettingsView.swift in Sources */,
+				CCEFCCD13168D75DE5790CB6 /* TimeCapsuleMusicApp.swift in Sources */,
+				002BC4C1549493C8F97C2231 /* TrackCache.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		30DF9B96B4E6B662CFD2D930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		604F755FADEE244726FF21FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TimeCapsuleMusic;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7258E6877BFB629204C4DD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TimeCapsuleMusic;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7C7815D1AF4D0968D0697030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C4195FE17EBAC2AEEF2E3A9 /* Build configuration list for PBXNativeTarget "TimeCapsuleMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604F755FADEE244726FF21FE /* Debug */,
+				7258E6877BFB629204C4DD63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F797462FEC116B35E5BFED64 /* Build configuration list for PBXProject "TimeCapsuleMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C7815D1AF4D0968D0697030 /* Debug */,
+				30DF9B96B4E6B662CFD2D930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		1CCBFD560A624F839C195EB3 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A06BB77E1CF87C0C946BBF5B /* TimeCapsuleKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimeCapsuleKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 383FA17E8260EB7264DF0CD9 /* Project object */;
+}
